@@ -22,5 +22,3 @@ for Table2 in tables:
 
         for cell in cells:
             output_row.append(cell.text)
-
-    billtest_writer.writerow(output_row)
